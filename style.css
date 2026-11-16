@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+.logo {
+    color: blue;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color:#ffffff
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.nav-buttons {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.signup-button {
+    background-color: blue;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+.signup-button:hover {
+    background-color: #243364;
+}
