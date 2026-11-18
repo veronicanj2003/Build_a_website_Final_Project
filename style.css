@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #333333;
+    background-color: #white;
     margin: 0;
 }
 
@@ -59,3 +59,39 @@ body {
     align-items: center;
     padding: 60px 40px;
 }
+
+.hero-content {
+    width: 45%;
+}
+
+.hero-image {
+    width: 50%
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: blue;
+
+}
+
+.hero-content h1 {
+    margin-bottom: 24px;
+}
+
+.hero-content p {
+    margin-bottom: 34px;
+}
+
